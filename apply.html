@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>申请单</title>
+		<script src="js/resize.js"></script>
+		<link rel="stylesheet" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/apply.css"/>
+	</head>
+	<body>
+		<header>
+			<a class="action-back">&#xe601;</a>
+			<h1>教室使用申请</h1>
+		</header>
+		<div class="apply-content">
+			<form action="" >
+				<ul class="applyform">
+					<li class="apply-list"><label>申请单位:</label>
+						<input type"text" name="orgain" class="apply-input" placeholder="请输入申请单位或组织"/>
+					</li>
+					<li class="apply-list"><label>申请人:</label>
+						<input type="text" name="applyname" class="apply-input" placeholder="请输入申请人"/>
+					</li>
+					<li class="apply-list"><label>联系电话：</label>
+						<input type="tel" name="tel" class="apply-input" placeholder="请输入联系电话"/>
+					</li>
+					<li class="apply-list"><label for="">申请教室:</label>
+						<input type="text" name="classname" class="apply-input"/>
+					</li>
+					<li class="apply-list"><label>使用日期：</label>
+						<input type="text" name="date" class="apply-input"/>
+					</li>
+					<li class="apply-listone"><lable><p>教室用途:</p></lable>
+						讲座<input type="radio" name="yutu" value="0">
+						会议<input type="radio" name="yutu" value="1">
+						报告<input type="radio" name="yutu" value="2">
+						考试<input type="radio" name="yutu" value="3">
+						其他<input type="radio" name="yutu" value="4">
+					</li>
+					<li class="apply-listone"><lable>设备需求：</lable>
+						否<input type="radio" name="require" value="0"/>
+						需<input type="radio" name="require" value="1"/>
+					</li>	 
+					<li class="apply-listthree"><lable>申请事由：</lable>
+						<textarea name="reason" id="reason" cols="35" rows="5" placeholder="请输入10至60字的申请理由"></textarea>
+					</li>
+				</ul>
+				<button class="apply-btn">提交</button>
+			</form>
+		</div>
+	</body>
+</html>

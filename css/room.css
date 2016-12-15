@@ -1,0 +1,78 @@
+.roomtime{
+	width:100%;
+	height:0.44rem;
+	background: #fff;
+	color:#88A1B0;
+}
+.roomtime .roomtime-con{
+	width: 7rem;
+	margin: 0 auto;
+	font-size:0.3rem;
+}
+.roomnav{
+	width: 100%;
+	height:0.65rem;
+	background: #fff;
+	font-size:0.32rem;
+	color:#999;
+}
+.roomnav .roomnav-con{
+	width:7rem;
+	height:100%;
+	margin: 0 auto;
+	display: -webkit-flex;
+	justify-content:space-around;
+	align-items:center;
+}
+.roomlist{
+	width: 100%;
+	background: #fff;
+	margin-top:0.1rem;
+}
+.roomlist .roomlist-con{
+	width: 7rem;
+	margin: 0 auto;
+}
+.roomtable{
+	width:100%;
+	height:2rem;
+	box-sizing:content-box;
+	/*border: 0.04rem solid #CCCCCC;*/
+}
+.roomtable .table-left{
+	float: left;
+	width:2.5rem;
+	height: 100%;
+	/*border-right:0.01rem solid #CCCCCC;*/
+	text-align: center;
+}
+.roomtable .table-left img{
+	width: 2rem;
+	height: 1.2rem;
+}
+.roomtable .table-left p{
+	margin-top:0.15rem;
+	color: #999;
+}
+.roomtable .table-right{
+	float:left;
+	
+}
+.table-right-top{
+	height:1rem;
+	/*border-bottom:0.01rem solid #CCCCCC;*/
+}
+.table-right-bottom{
+	height:1rem;
+}
+.table-right-list{
+	overflow: hidden;
+	width:1.5rem;
+	height: 100%;
+	float:left;
+	/*border-right: 0.01rem solid #CCCCCC;*/
+	text-align: center;
+}
+.table-right-list p{
+	margin: 0.1rem 0;
+}

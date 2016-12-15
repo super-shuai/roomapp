@@ -1,0 +1,97 @@
+header{
+	width:100%;
+	height:0.75rem;
+	text-align: center;
+	line-height: 0.75rem;
+	background: #f7f7f7;
+	position: absolute;
+	top:0;left:0;
+}
+header h1{
+	font-size:0.32rem;
+	font-weight: 500;
+	color: #000;
+}
+header .action-back{
+	position: absolute;
+	top:0;left: 0.4rem;
+	font-family: "class";
+	font-size: 0.5rem;
+}
+.classroom-content{
+	position: absolute;
+	top:0.75rem;left: 0;right: 0;bottom: 0;
+	background:#1A9CE0;
+}
+.class-info{
+	margin: 0.25rem;
+}
+.class-info .word{
+	float: left;
+	width:3.8rem;
+	height:2.5rem;
+	padding-left: 0.1rem;
+	
+}
+.class-info .word p{
+	font-size: 0.32rem;
+	line-height: 0.5rem;
+	color: #efeff4;
+}
+.class-info .class-img{
+	float:right;
+	width:3rem;
+	height:2rem;
+	/*background: red;*/
+}
+.class-info .class-img img{
+	width:2.9rem;
+	height:1.8rem;
+}
+.course{
+	margin: 0.25rem;
+}
+.course .course-time{
+	width: 3.4rem;
+	height: 3rem;
+	background:#F2DEDE;
+	margin-bottom: 0.2rem;
+	border-radius:0.4rem;
+	float: left;
+}
+.course .course-time:nth-child(1){
+	margin-right: 0.2rem;
+}
+.course .course-time:nth-child(3){
+	margin-right: 0.2rem;
+}
+.course .course-time p{
+	width:100%;
+	border-radius:0.4rem 0.4rem 0 0;
+	height:1rem;
+	margin:0 auto;
+	text-align: center;
+	line-height: 1rem;
+	font-size:0.4rem;
+	background:pink;
+}
+.course-time span{
+	float: left;
+	width: 100%;
+	height:0.8rem;
+	line-height: 0.8rem;
+	text-align: center;
+	font-size: 0.4rem;
+	color: blueviolet;
+}
+.course-time button{
+	display: block;
+	width:2.5rem;
+	height: 0.8rem;
+	margin: 0 auto;
+	background:#5CB85C;
+	border: 0;
+	border-radius:0.2rem;
+	color: #fff;
+	outline: 0;
+}

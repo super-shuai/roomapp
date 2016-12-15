@@ -1,0 +1,53 @@
+.me-top{
+	width: 2rem;
+	margin: 0 auto;
+	margin-top:1rem;
+}
+.me-login{
+	width:1.8rem;
+	height:1.8rem;
+	border-radius: 50%;
+	border: 0.04rem solid #ccc;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 1.8rem;
+}
+.me-login a{
+	font-family:"class";
+	font-size: 1rem;
+}
+.me-top span{
+	font-size:0.5rem;
+	margin: 0 auto;
+	
+}
+
+.me-center{
+	width: 100%;
+	margin-top: 1rem;
+	float: left;
+}
+.me-center li{
+	width: 100%;
+	height:1rem;
+	padding:0 0.25rem;
+	font-size:0.36rem;
+	border-top:0.02rem solid #E9E9E9;
+	line-height: 1rem;
+	box-sizing: border-box;
+	color: #333;
+	
+	
+}
+.me-center li:last-child{
+	border-bottom:0.01rem solid #E9E9E9;
+}
+.me-center span{
+	font-family: "class";
+	margin-right: 0.3rem;
+}
+
+.me-center p{
+	font-family:"class";
+	float:right;
+}
